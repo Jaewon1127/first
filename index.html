@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <style>
+                body{
+                    margin:0;
+                }
+                
+                h1{
+                    text-align: center;
+                    border-bottom:3px solid black;
+                    padding-bottom:30px;
+                    margin-top:20px;
+                    font-size:80px;                  
+                }
+                #grid{
+                    display:grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+                .divbox{
+                    border:3px solid red;
+                }
+                button{
+                    width:170px;
+                    height:50px;
+                    position:relative;
+                    left:45%;
+                    background-color: rgb(255, 39, 39);
+                    border:none;
+                    border-radius:25px;
+                    margin-bottom:50px;
+                    box-shadow:2px 4px 5px rgba(255,39,39,0.5);
+                    font-size:20px;
+                    color:white;
+                }
+                button:hover{
+                    cursor:pointer;
+                    background-color: rgb(255, 105, 105);
+                    transition:0.4s;
+                }
+                button:active{
+                    box-shadow:0px 0px 2px rgba(255,39,39,0.5);
+                    background-color: rgb(255, 68, 68);               
+                }
+                @media(max-width:700px){#grid{display:block;}
+            h1{font-size:65px;} button{position:relative; left:35%; }}
+                @media(max-width:500px){div{display:none;}}
+            </style>
+        </head>
+        <body>
+            <h1>Design Test page</h1>
+            <button>Button</button>
+            
+            <div id="grid">
+                <div class="divbox">
+                    <h2>Dummy text1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, nisi vitae fermentum imperdiet, magna dui ultricies libero, quis lobortis lacus elit sed tortor. Etiam varius elit lorem, non hendrerit neque laoreet vitae. Aliquam erat volutpat. Curabitur iaculis lacinia velit, molestie malesuada enim pretium ac. Vestibulum erat nisl, sagittis sit amet dolor id, dignissim dignissim dolor. Phasellus cursus mi a malesuada lobortis. Aenean eu faucibus felis. Donec et tristique tortor.
+                        Ut ultricies sem ex, id ultricies enim viverra nec. Cras at nisl sodales, venenatis turpis malesuada, placerat diam. Proin a quam at ante facilisis imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas rhoncus, enim at fermentum volutpat, lorem arcu aliquam purus, sit amet rhoncus erat diam at tortor. Vivamus eu fringilla elit, quis venenatis nisl. Pellentesque ac consectetur odio. Aenean sed sodales ligula, finibus pellentesque justo. Fusce vel velit risus. Suspendisse sit amet consectetur erat, in tempus turpis. Suspendisse potenti.
+                        
+                        Maecenas porttitor nunc vel enim eleifend, sed maximus tortor commodo. Fusce posuere quis metus luctus interdum. Phasellus lacinia ultrices ligula, non consequat lorem vulputate congue. Phasellus quis lorem purus. Cras sed convallis eros. Sed maximus, lacus nec viverra eleifend, enim eros tincidunt dolor, vitae mattis ligula dui vitae lectus. Fusce vitae aliquam dolor. Proin non dolor orci. Cras id ex nec diam euismod sagittis sit amet vitae eros. Aenean in sollicitudin sapien. Nam sit amet consectetur arcu, sed rhoncus nisi.
+                    </p>
+                </div>
+                <div class="divbox">
+                    <h2>Dummy text2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, nisi vitae fermentum imperdiet, magna dui ultricies libero, quis lobortis lacus elit sed tortor. Etiam varius elit lorem, non hendrerit neque laoreet vitae. Aliquam erat volutpat. Curabitur iaculis lacinia velit, molestie malesuada enim pretium ac. Vestibulum erat nisl, sagittis sit amet dolor id, dignissim dignissim dolor. Phasellus cursus mi a malesuada lobortis. Aenean eu faucibus felis. Donec et tristique tortor.
+                        Ut ultricies sem ex, id ultricies enim viverra nec. Cras at nisl sodales, venenatis turpis malesuada, placerat diam. Proin a quam at ante facilisis imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas rhoncus, enim at fermentum volutpat, lorem arcu aliquam purus, sit amet rhoncus erat diam at tortor. Vivamus eu fringilla elit, quis venenatis nisl. Pellentesque ac consectetur odio. Aenean sed sodales ligula, finibus pellentesque justo. Fusce vel velit risus. Suspendisse sit amet consectetur erat, in tempus turpis. Suspendisse potenti.
+                        
+                        Maecenas porttitor nunc vel enim eleifend, sed maximus tortor commodo. Fusce posuere quis metus luctus interdum. Phasellus lacinia ultrices ligula, non consequat lorem vulputate congue. Phasellus quis lorem purus. Cras sed convallis eros. Sed maximus, lacus nec viverra eleifend, enim eros tincidunt dolor, vitae mattis ligula dui vitae lectus. Fusce vitae aliquam dolor. Proin non dolor orci. Cras id ex nec diam euismod sagittis sit amet vitae eros. Aenean in sollicitudin sapien. Nam sit amet consectetur arcu, sed rhoncus nisi.
+                    </p>
+                </div>
+            </div>
+        </body>
+        </html>
